@@ -1,0 +1,26 @@
+{
+  "name": "red-alarms-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build-data": "python3 scripts/build_dashboard_data.py",
+    "dev": "npm run build-data && next dev",
+    "build": "npm run build-data && next build",
+    "preview": "python3 -m http.server 3000 -d out",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "echarts-for-react": "^3.0.2",
+    "maplibre-gl": "^5.3.0",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.5",
+    "typescript": "^5.8.3"
+  }
+}

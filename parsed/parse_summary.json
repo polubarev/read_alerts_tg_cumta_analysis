@@ -1,0 +1,23 @@
+{
+  "total_messages": 2979,
+  "messages_with_occurrences": 1799,
+  "messages_using_carried_timestamp": 535,
+  "raw_occurrence_fragments": 112398,
+  "unique_occurrences": 79484,
+  "issue_count": 102,
+  "classification_counts": {
+    "continuation": 555,
+    "empty": 1107,
+    "footer_only": 4,
+    "header": 1188,
+    "other": 12,
+    "summary_footer": 68,
+    "timestamp_start": 45
+  },
+  "unique_occurrence_alert_types": {
+    "UNKNOWN": 438,
+    "Проникновение Беспилотного летательного аппарата": 3217,
+    "Террористическое проникновение": 1,
+    "Цева адом": 75828
+  }
+}

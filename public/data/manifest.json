@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-03-22T09:53:27.827583+00:00",
+  "default_filters": {
+    "date_from": "2026-02-28",
+    "date_to": "2026-03-22",
+    "alert_types": [
+      "Цева адом"
+    ],
+    "districts": [],
+    "areas": []
+  },
+  "files": [
+    "area_rankings.json",
+    "daily_counts.json",
+    "dashboard_seed.json",
+    "district_rankings.json",
+    "event_bursts.json",
+    "filtered_table_seed.json",
+    "hour_of_day_counts.json",
+    "manifest.json",
+    "map_points.json",
+    "overview_metrics.json",
+    "quality_metrics.json",
+    "weekday_counts.json",
+    "weekday_hour_heatmap.json"
+  ]
+}
